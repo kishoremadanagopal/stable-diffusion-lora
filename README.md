@@ -46,13 +46,13 @@ sd-lora-finetune/
 
 ### Option 1 — Colab (free, recommended for first run)
 
-The `notebooks/colab_quickstart.ipynb` notebook runs the full pipeline end-to-end on a free Colab T4. Open it directly via **File → Open notebook → GitHub** in Colab, paste `kishoremadanagopal/sd-lora-finetune`, and run the cells top to bottom. Total time ≈ 45 minutes.
+The `notebooks/colab_quickstart.ipynb` notebook runs the full pipeline end-to-end on a free Colab T4. Open it directly via **File → Open notebook → GitHub** in Colab, paste `kishoremadanagopal/stable-diffusion-lora`, and run the cells top to bottom. Total time ≈ 45 minutes.
 
 ### Option 2 — Local (CUDA)
 
 ```bash
-git clone https://github.com/kishoremadanagopal/sd-lora-finetune.git
-cd sd-lora-finetune
+git clone https://github.com/kishoremadanagopal/stable-diffusion-lora.git
+cd stable-diffusion-lora
 
 # Install PyTorch matching your CUDA version (example: CUDA 12.1)
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
