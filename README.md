@@ -17,7 +17,7 @@ Built on 🤗 **Diffusers**, **PEFT**, **Accelerate**, and **PyTorch**. Runs loc
 ## Repo layout
 
 ```
-sd-lora-finetune/
+stable-diffusion-lora/
 ├── src/
 │   ├── dataset.py        # HF hub + local-folder loaders, BLIP auto-captioning
 │   ├── train.py          # LoRA injection (PEFT), accelerate-based training loop
